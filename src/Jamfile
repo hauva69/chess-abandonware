@@ -1,0 +1,6 @@
+exe chess : main.cpp ;
+
+install dist : 
+	chess : 
+	      <location>../bin 
+	;
