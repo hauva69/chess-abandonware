@@ -20,54 +20,54 @@ namespace Acl {
     /**
        @return The piece as a character symbol.
     */
-    virtual const char chr() const = 0;
+    virtual char chr() const = 0;
 
     /**
        @return true if the piece is a pawn.
     */
-    virtual const bool isPawn() const { 
+    virtual bool isPawn() const { 
       return false; 
     }
 
     /**
        @return true if the piece is a knight.
     */
-    virtual const bool isKnight() const { 
+    virtual bool isKnight() const { 
       return false; 
     }
 
     /**
        @return true if the piece is a bishop.
     */
-    virtual const bool isBishop() const { 
+    virtual bool isBishop() const { 
       return false; 
     }
 
     /**
        @return true if the piece is a rook.
     */
-    virtual const bool isRook() const { 
+    virtual bool isRook() const { 
       return false; 
     }
 
     /**
        @return true if the piece is a queen.
     */
-    virtual const bool isQueen() const { 
+    virtual bool isQueen() const { 
       return false; 
     }
 
     /**
        @return true if the piece is a king.
     */
-    virtual const bool isKing() const { 
+    virtual bool isKing() const { 
       return false; 
     }
 			
     /**
        @return true if the piece is white.
     */
-    inline const bool isWhite() const {
+    inline bool isWhite() const {
       if (color_ == WHITE)
 	return true;
       else
@@ -77,7 +77,7 @@ namespace Acl {
     /**
        @return true if the piece is black.
     */
-    inline const bool isBlack() const {
+    inline bool isBlack() const {
       if (color_ == BLACK)
 	return true;
       else
@@ -91,7 +91,7 @@ namespace Acl {
 			
     */
 
-    inline const int getColor() const {
+    inline int getColor() const {
       return color_;
     }
   };
