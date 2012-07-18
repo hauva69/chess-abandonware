@@ -3,13 +3,13 @@
 
 #include "constants.hpp"
 
-#include <string>
+#include <QString>
 
 namespace Acl {
   class Piece {
   protected:
     const int color_;
-    char *symbols_;
+    QString symbols_;
 
   public:
 
