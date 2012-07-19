@@ -10,7 +10,7 @@
 ///
 
  namespace Acl {
-   // The colors of the pieces
+   /// The colors of the pieces
    enum Color { WHITE, BLACK };
 
    enum Pieces { KING, QUEEN, ROOK, BISHOP, KNIGHT, PAWN };
@@ -24,7 +24,7 @@
    const int FILES = 8;
    const int RANKS = 8;
 
-   // The squares of the chess board.
+   /// The squares of the chess board.
    const int SQUARES = 64;
    const int A1 = 0;
    const int B1 = 1;
