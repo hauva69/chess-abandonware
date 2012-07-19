@@ -1,7 +1,7 @@
  #ifndef _CONSTANTS_HPP
  #define _CONSTANTS_HPP
 
- #include <string>
+ #include <QString>
 
 ///
 ///
@@ -93,7 +93,7 @@
    // TODO check whether this is needed.
    const int ILLEGAL_SQUARE = 264;
 
-   const std::string FEN_START = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+   const QString FEN_START = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
  }
 
  #endif
