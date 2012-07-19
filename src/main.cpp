@@ -7,14 +7,15 @@
 ///
 
 #include <QCoreApplication>
+#include <QTextStream>
 
 #include <cstdlib>
-#include <iostream>
 
 int main(int argc, char **argv) {
   QCoreApplication app(argc, argv);
+  QTextStream cout(stdout);
 
-  std::cout << "hello, world" << std::endl;
+  cout << "hello, world" << endl;
 
   return EXIT_SUCCESS;
 }
