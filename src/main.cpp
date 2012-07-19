@@ -6,11 +6,14 @@
 /// See file COPYRIGHT.
 ///
 
+#include <QCoreApplication>
+
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
 
 int main(int argc, char **argv) {
+  QCoreApplication app(argc, argv);
   std::string cmd;
 
   std::cout << "hello, world" << std::endl;
