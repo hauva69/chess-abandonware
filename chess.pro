@@ -7,6 +7,8 @@ TARGET =
 DEPENDPATH += . src src/lib
 INCLUDEPATH += . src/lib
 
+CONFIG += qt debug
+
 # Input
 HEADERS += src/lib/constants.hpp src/lib/piece.hpp
 SOURCES += src/main.cpp src/lib/piece.cpp
