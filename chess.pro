@@ -10,5 +10,5 @@ INCLUDEPATH += . src/lib
 CONFIG += qt debug
 
 # Input
-HEADERS += src/lib/constants.hpp src/lib/piece.hpp
-SOURCES += src/main.cpp src/lib/piece.cpp
+HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp
+SOURCES += src/main.cpp src/lib/piece.cpp src/lib/king.cpp
