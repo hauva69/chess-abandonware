@@ -3,6 +3,7 @@
 
 #include "constants.hpp"
 
+#include <QChar>
 #include <QString>
 
 namespace Acl {
@@ -24,7 +25,7 @@ namespace Acl {
     /// @return The piece as a character symbol.
     ///
 
-    virtual char chr() const = 0;
+    virtual QChar qchr() const = 0;
 
     ///
     /// @return true if the piece is a pawn.
