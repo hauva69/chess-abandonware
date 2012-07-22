@@ -4,10 +4,11 @@
 #include "constants.hpp"
 
 #include <QChar>
+#include <QObject>
 #include <QString>
 
 namespace Acl {
-  class Piece {
+  class Piece : public QObject {
   protected:
     const int color_;
     QString symbols_;
