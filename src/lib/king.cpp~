@@ -1,0 +1,16 @@
+#include "constants.hpp"
+#include "piece.hpp"
+#include "king.hpp"
+
+#include <cctype>
+#include <iostream>
+
+namespace Acl {
+	const char King::chr() const {
+		if (isWhite())
+			return symbols_[KING];
+		else
+			return tolower(symbols_[KING]);
+	}
+}
+
