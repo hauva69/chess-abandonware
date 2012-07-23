@@ -9,6 +9,16 @@ INCLUDEPATH += . src/lib
 QT += testlib
 CONFIG += qt debug
 
+win32 {
+MOC_DIR = _moc
+UI_DIR = _ui
+OBJECTS_DIR = _obj 
+} else {
+UI_DIR = .ui
+MOC_DIR = .moc
+OBJECTS_DIR = .obj
+}
+
 # Input
 HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp \
 src/tests/kingtest.hpp
