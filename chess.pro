@@ -6,9 +6,11 @@ TEMPLATE = app
 TARGET = 
 DEPENDPATH += . src src/lib
 INCLUDEPATH += . src/lib
-
+QT += testlib
 CONFIG += qt debug
 
 # Input
-HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp
-SOURCES += src/main.cpp src/lib/piece.cpp src/lib/king.cpp
+HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp \
+src/tests/kingtest.hpp
+SOURCES += src/main.cpp src/lib/piece.cpp src/lib/king.cpp \
+src/tests/kingtest.cpp
