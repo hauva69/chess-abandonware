@@ -9,5 +9,5 @@
 #include "kingtest.hpp"
 
 void KingTest::qchr() {
-
+  Acl::King k = Acl::King(Acl::WHITE);
 } 
