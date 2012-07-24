@@ -9,6 +9,8 @@
 #ifndef _KINGTEST_HPP
 #define _KINGTEST_HPP
 
+#include "../lib/constants.hpp"
+#include "../lib/king.hpp"
 #include <QtTest/QtTest>
 
 class KingTest : public QObject {
