@@ -2,6 +2,7 @@
 #define _KING_HPP
 
 #include "constants.hpp"
+#include "piece.hpp"
 
 namespace Acl {
   class King : public Piece {
