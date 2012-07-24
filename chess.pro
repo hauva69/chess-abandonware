@@ -21,6 +21,6 @@ OBJECTS_DIR = .obj
 
 # Input
 HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp \
-src/tests/kingtest.hpp
+src/tests/testking.hpp
 SOURCES += src/main.cpp src/lib/piece.cpp src/lib/king.cpp \
-src/tests/kingtest.cpp
+src/tests/testking.cpp

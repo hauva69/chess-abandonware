@@ -6,8 +6,9 @@
 /// See file COPYRIGHT.
 ///
 
-#include "kingtest.hpp"
+#include "testking.hpp"
 
-void KingTest::qchr() {
+void TestKing::qchr() {
   Acl::King k = Acl::King(Acl::WHITE);
+  QVERIFY(k.qchr() == 'k');
 } 
