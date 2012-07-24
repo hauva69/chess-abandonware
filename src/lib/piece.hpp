@@ -8,7 +8,7 @@
 #include <QString>
 
 namespace Acl {
-  class Piece : public QObject {
+  class Piece {
   protected:
     const int color_;
     QString symbols_;
