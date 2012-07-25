@@ -6,7 +6,6 @@ TEMPLATE = app
 TARGET = 
 DEPENDPATH += . src src/lib
 INCLUDEPATH += . src/lib
-QT += testlib
 CONFIG += qt debug
 
 win32 {
@@ -20,7 +19,5 @@ OBJECTS_DIR = .obj
 }
 
 # Input
-HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp \
-src/tests/testking.hpp
-SOURCES += src/main.cpp src/lib/piece.cpp src/lib/king.cpp \
-src/tests/testking.cpp
+HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp
+SOURCES += src/main.cpp src/lib/piece.cpp src/lib/king.cpp
