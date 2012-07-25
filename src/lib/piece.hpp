@@ -10,7 +10,7 @@
 namespace Acl {
   class Piece {
   protected:
-    const int color_;
+    int color_;
     QString symbols_;
 
   public:
@@ -20,7 +20,11 @@ namespace Acl {
     ///
 
     Piece(int color);
+    Piece(const Piece& pc);
+
     virtual ~Piece() {}
+
+    Piece& operator=(const Piece& pc);
 
     ///
     /// @return The piece as a character symbol.
