@@ -15,8 +15,8 @@ void TestKing::qchr() {
   QVERIFY(pk->qchr() == 'k');
   delete pk;
   pk = NULL;
-  //k = Acl::King(Acl::BLACK);
-  //QVERIFY(k.qchr() == 'k');
+  k = Acl::King(Acl::BLACK);
+  QVERIFY(k.qchr() == 'k');
 } 
 
 QTEST_MAIN(TestKing)
