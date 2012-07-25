@@ -12,3 +12,5 @@ void TestKing::qchr() {
   Acl::King k = Acl::King(Acl::WHITE);
   QVERIFY(k.qchr() == 'k');
 } 
+
+QTEST_MAIN(TestKing)
