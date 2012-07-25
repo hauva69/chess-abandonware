@@ -10,7 +10,7 @@
 
 void TestKing::qchr() {
   Acl::King k = Acl::King(Acl::WHITE);
-  QVERIFY(k.qchr() == 'k');
+  QVERIFY(k.qchr() == 'K');
 } 
 
 QTEST_MAIN(TestKing)
