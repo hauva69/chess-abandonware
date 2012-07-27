@@ -33,6 +33,12 @@ namespace Acl {
     virtual QChar qchr() const = 0;
 
     ///
+    /// @return The piece as a QString.
+    ///
+
+    virtual QString toString() const = 0;
+
+    ///
     /// @return true if the piece is a pawn.
     ///
 
