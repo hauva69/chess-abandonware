@@ -11,6 +11,8 @@ namespace Acl {
 		
     virtual QChar qchr() const;
 
+    virtual QString toString() const;
+
     virtual bool isKing() const {
       return true;
     }

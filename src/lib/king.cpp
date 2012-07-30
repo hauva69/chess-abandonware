@@ -12,5 +12,14 @@ namespace Acl {
 
     return c;
   }
+
+  // TODO: print the symbol and the unicode char.
+  QString King::toString() const {
+    if (color_ == BLACK) {
+      return "Black King";
+    }
+
+    return "White King";
+  }
 }
 
