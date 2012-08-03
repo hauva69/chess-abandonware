@@ -9,7 +9,7 @@
 ///
 ///
 
- namespace Acl {
+namespace Acl {
    /// The colors of the pieces
    enum Color { WHITE, BLACK };
 
