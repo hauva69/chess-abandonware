@@ -16,14 +16,11 @@ import sys
 
 URL = 'https://github.com/hauva69/chess'
 
-def mainwindow():
+def main():
+    app = QApplication(sys.argv)
     web = QWebView()
     web.load(QUrl(URL))
     web.show()
-    
-def main():
-    app = QApplication(sys.argv)
-    mainwindow()
     sys.exit(app.exec_())
 
 if __name__ == '__main__':
