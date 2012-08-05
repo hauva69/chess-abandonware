@@ -9,5 +9,7 @@ DEPENDPATH += .
 INCLUDEPATH += .
 
 # Input
-HEADERS += testking.hpp ../lib/constants.hpp ../lib/king.hpp ../lib/piece.hpp
-SOURCES += testking.cpp ../lib/king.cpp ../lib/piece.cpp
+HEADERS += testking.hpp testqueen.hpp ../lib/constants.hpp \
+../lib/king.hpp ../lib/queen.hpp ../lib/piece.hpp
+SOURCES += testking.cpp testqueen.cpp ../lib/king.cpp ../lib/queen.cpp \
+../lib/piece.cpp
