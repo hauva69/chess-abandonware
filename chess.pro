@@ -19,5 +19,6 @@ OBJECTS_DIR = .obj
 }
 
 # Input
-HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp
-SOURCES += src/main.cpp src/lib/piece.cpp src/lib/king.cpp
+HEADERS += src/lib/constants.hpp src/lib/piece.hpp src/lib/king.hpp \
+src/lib/queen.hpp
+SOURCES += src/main.cpp src/lib/piece.cpp src/lib/king.cpp src/lib/queen.cpp
